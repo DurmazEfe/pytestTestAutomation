@@ -1,0 +1,2 @@
+from page_opjects.locators.home_page_locatiors import HomePageLocators
+from page_opjects.locators.elements_page_locators import ElementsPageLocators

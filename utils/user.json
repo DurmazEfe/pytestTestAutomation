@@ -1,0 +1,31 @@
+{
+  "local": {
+    "username": "username",
+    "password": "password",
+    "db": {
+      "user": "I am Local DB",
+      "password": "I am Local DB"
+    },
+    "token": "I am Local Token"
+    },
+
+  "dev": {
+    "username": "Iam Dev User",
+    "password": "Iam Dev Password",
+    "db": {
+      "user": "I am Dev DB",
+      "password": "I am Dev DB"
+    },
+    "token": "I am DEV Token"
+    },
+
+  "test": {
+    "username": "Iam Test User",
+    "password": "Iam Test Password",
+    "db": {
+      "user": "I am Test DB",
+      "password": "I am Test DB"
+    },
+    "token": "I am Test Token"
+    }
+}

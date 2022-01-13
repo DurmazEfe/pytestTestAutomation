@@ -1,0 +1,26 @@
+trigger:
+- main
+- develop
+
+
+pool:
+  vmImage: ubuntu-latest
+
+
+steps:
+- script: |
+    python -m pip install --upgrade pip
+    pip install pytest pytest-azurepipelines
+    pwd
+    pip install -r requirements.txt
+  displayName: 'Install dependencies'
+
+- script: |
+    pytest --env='local'
+  displayName: 'pytest'
+
+
+- task: PublishTestResults@2
+  displayName: 'Publish test result'
+  inputs:
+    testResultsFiles: '$(Build.StagingDirectory)/reports/*.xml'

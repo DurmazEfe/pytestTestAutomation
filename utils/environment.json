@@ -1,0 +1,25 @@
+{
+  "local": {
+    "url": "https://www.google.com/",
+    "backend": "https://www.google.com/",
+    "database": {
+      "host": "Insert DB host URL"
+    }
+  },
+
+  "dev": {
+    "url": "DEV_URL",
+    "backend": "DEV_BE_URL",
+    "database": {
+      "host": "Insert DB host URL"
+    }
+  },
+
+  "test": {
+    "url": "TEST_URL",
+    "backend": "TEST_BE_URL",
+    "database": {
+      "host": "Insert DB host URL"
+    }
+  }
+}

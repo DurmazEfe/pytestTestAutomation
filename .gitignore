@@ -1,0 +1,8 @@
+reports/*
+venv
+.pytest_cache
+.idea
+__pycache__
+.vs
+.vscode
+TestResults/*
